@@ -26,6 +26,7 @@ def test_health(client):
     response = client.get('/')
     assert response.status_code == 200
     assert response.json == 'Healthy'
+    assert False # for testing broken builds, comment this out otherwise
 
 
 def test_auth(client):
