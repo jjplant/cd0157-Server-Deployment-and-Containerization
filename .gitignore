@@ -30,4 +30,4 @@ htmlcov/
 .github/**
 venv*/
 examples/
-.env_file
+.env_fileaws-auth-patch.yml
