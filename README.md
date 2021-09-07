@@ -1,3 +1,18 @@
+# Before starting: create a .env_file
+
+create a new file named `.env_file` and set the following variables for the application:
+
+ex. (the current aws deployment uses these values but they can be changed in your environment)
+```bash
+JWT_SECRET=itsasecretjwt57803275082705
+LOG_LEVEL=DEBUG
+```
+
+this will be used during the build process.
+
+A sample file named `.env_file_SAMPLE` is included for reference
+
+
 # Deploying a Flask API
 
 This is the project starter repo for the course Server Deployment, Containerization, and Testing.
