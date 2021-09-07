@@ -31,3 +31,4 @@ htmlcov/
 venv*/
 examples/
 .env_file
+aws-auth-patch.yml
